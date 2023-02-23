@@ -6,7 +6,7 @@ class hidden:
     def test0(self, guess, answer):
         if guess == answer:
             print("correct!")
-            self.message[]
+            self.message[3:6] = list('ed ')
         else:
             print("sorry! try again")
         
