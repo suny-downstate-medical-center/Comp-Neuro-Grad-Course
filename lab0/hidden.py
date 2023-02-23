@@ -12,5 +12,5 @@ class hidden:
         
 
     def get_phrase(self):
-        print("").join("{}".format(i for i in messagearr))
+        print("").join("{}".format(i for i in self.message))
     
